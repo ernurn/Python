@@ -34,3 +34,46 @@ print(3 > 4 or 4 == 4)      # or is TRUE if one of them is TRUE
 print('Hello' + 'Python')   # Concatenate
 
 
+# Calculating area of a circle
+radius = 45     # radius of a circle
+area_of_circle = 3.14 * radius ** 2     # two * sign means exponent or power
+print('Area of a circle:', area_of_circle)
+
+# Calculating area of a rectangle
+length = 30
+width = 20
+area_of_rectangle = length * width
+print('Area of rectangle:', area_of_rectangle)
+
+# Calculating a weight of an object
+mass = 85
+gravity = 9.81
+weight = mass * gravity
+print(weight, 'N')  # Adding unit to the weight
+
+# Calculate the density of a liquid
+mass = 75       # in Kg
+volume = 0.075  # in cubic meter
+density = mass / volume
+print('Density', density, 'Kg/m^3')
+
+### Exercises ###
+# 1 Declare your age as integer variable
+age = int(38)
+print('Age:', age)
+
+# 2 Declare your height as a float variable
+height = float(73.5)
+print('Height:', height, 'mts')
+
+# 3 Declare a variable that store a complex number
+num = complex(1 + 1j)
+print(num)
+
+# 4 Write a script that prompts the user to enter base and height of the triangle and calculate an area of this triangle.
+base =  float(input('Enter base of triangle: '))
+height = float(input('Entre height of triangle: '))
+area = 0.5 * base * height
+print('Area of triangle: ', area)
+
+# 5 Write a script that prompts the user to enter side a, side b, and side c of the triangle. Calculate the perimeter of the triangle.
