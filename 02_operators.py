@@ -98,7 +98,7 @@ area = pi * radius ** 2
 circumference = 2 * pi * radius
 print('The area of ircle is: ', area)
 print('The circumference of circle is: ', circumference)
-'''
+
 # 8 Calculate the slope, x-intercept and y-intercept of y = 2x -2
 print('y = 2x -2')
 slope_1 = 2
@@ -130,3 +130,54 @@ else:
     print('not equal')
 
 # 11 Calculate the value of y (y = x^2 + 6x + 9). Try to use different x values and figure out at what x value y is going to be 0.
+y = 1
+while y != 0:
+    x = int(input('Insert x value:'))
+    y = x ** 2 + 6*x + 9
+    print('  x',' | ','y', '\n', '(', x , ';', y,')')
+
+
+#12 Find the length of 'python' and 'dragon' and make a falsy comparison statement.
+print(len('python'') == len('dragon'))
+
+
+#13 Use and operator to check if 'on' is found in both 'python' and 'dragon'
+if 'on' in 'python' and 'dragon':
+    print('yes')
+else:
+    print('no')
+
+
+#14 I hope this course is not full of jargon. Use in operator to check if jargon is in the sentence.
+sentence = 'I hope this course is not full of jargon'
+if 'jargon' in sentence:
+    print('yes')
+else:
+    print('no')
+
+
+15# There is no 'on' in both dragon and python
+if 'on' not in 'python' and 'dragon':
+    print('yes')
+else:
+    print('no')
+
+
+16# Find the length of the text python and convert the value to float and convert it to string
+text = 'python'
+length = float(len(text))
+print(length, 'as float')
+print(type(length))
+length = str(length)
+print(length, 'as string')
+print(type(length))
+
+'''
+
+17# Even numbers are divisible by 2 and the remainder is zero. How do you check if a number is even or not using python?
+print('Even number checker')
+num = int(input('Insert a number:'))
+if num % 2:
+    print('The number is not even')
+else: 
+    print('Even number')
