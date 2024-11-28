@@ -172,12 +172,68 @@ length = str(length)
 print(length, 'as string')
 print(type(length))
 
-'''
 
-17# Even numbers are divisible by 2 and the remainder is zero. How do you check if a number is even or not using python?
+#17 Even numbers are divisible by 2 and the remainder is zero. How do you check if a number is even or not using python?
 print('Even number checker')
 num = int(input('Insert a number:'))
 if num % 2:
     print('The number is not even')
 else: 
     print('Even number')
+
+
+
+#18 Check if the floor division of 7 by 3 is equal to the int converted value of 2.7
+if 7 // 3 == int(2.7):
+    print('are equal to 2')
+
+
+
+#19 Check if type of '10' is equal to type of 10
+if type('10') == type(10):
+    print('Are equals')
+else:
+    print('Are not equals')
+    print (type('10'))
+    print(type(10))
+
+
+#20 Check if int('9.8') is equal to 10
+float_value = float('9.8')
+int_value = int(float_value)
+if int_value == 10:
+    print('Are equals')
+else:
+    print('Are not equals')
+    print('float', float_value)
+    print('int', int_value)
+    print(10)
+
+
+
+#21 Write a script that prompts the user to enter hours and rate per hour. Calculate pay of the person?
+hours = int(input('Enter hours: '))
+rate_per_hour = int(input('Enter rate per hour: '))
+weekly_earning = hours * rate_per_hour
+print('Your weekly earning is:', weekly_earning)
+
+
+
+#22 Write a script that prompts the user to enter number of years. Calculate the number of seconds a person can live. Assume a person can live hundred years
+lived = int(input('Enter number of years you have lived:'))
+print(f'You have lived for {lived * 31536000} seconds.')
+
+'''
+
+#23 Write a Python script that displays the following table
+print('n 1 n n**2 n**3') #header of the table
+for n in range(1,6):
+    print(f'{n} 1 {n}  {n**2}   {n**3}')
+
+'''
+1 1 1 1 1
+2 1 2 4 8
+3 1 3 9 27
+4 1 4 16 64
+5 1 5 25 125
+'''
