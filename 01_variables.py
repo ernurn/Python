@@ -1,4 +1,4 @@
-#Variables in Python
+### Variables in Python ###
 # Exercises Level 1
 
 first_name = 'Ernesto'
