@@ -361,3 +361,53 @@ print(company[10]) # ' '
 sentence = 'Python For Everyone'
 acronym = sentence[0] + sentence[7] + sentence[11]
 print(acronym) #PFE
+
+# 19 Create an acronym or an abbreviation for the name 'Coding For All'.
+sentence = 'Coding For All'
+acronym = sentence[0] + sentence[7] + sentence[11]
+print(acronym) #CFA
+
+# 20 Use index to determine the position of the first occurrence of C in Coding For All.
+sentence = 'Coding For All'
+print(sentence.index('C')) # 0
+
+# 21 Use index to determine the position of the first occurrence of F in Coding For All.
+sentence = 'Coding For All'
+print(sentence.index('F')) # 7
+
+# 22 Use rfind to determine the position of the last occurrence of l in Coding For All People.
+sentence = 'Coding For All People'
+print(sentence.rfind('l')) # 19
+
+# 23 Use index or find to find the position of the first occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+sentence = 'You cannot end a sentence with because because because is a conjunction'
+print(sentence.find('because')) # 31
+print(sentence.index('because')) # 31
+
+# 24 Use rindex to find the position of the last occurrence of the word because in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+sentence = 'You cannot end a sentence with because because because is a conjunction'
+print(sentence.rindex('because')) # 47
+
+# 25 Slice out the phrase 'because because because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+sentence = 'You cannot end a sentence with because because because is a conjunction'
+print(sentence[0:30], sentence[55:]) # You cannot end a sentence with is a conjunction
+
+# 26 Find the position of the first occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+sentence = 'You cannot end a sentence with because because because is a conjunction'
+print(sentence.find('because')) # 31
+
+# 27 Slice out the phrase 'because because because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+sentence = 'You cannot end a sentence with because because because is a conjunction'
+print(sentence[0:30], sentence[55:]) # You cannot end a sentence with is a conjunction
+
+# 28 Does ''Coding For All' start with a substring Coding?
+sentence = 'Coding For All'
+print(sentence.startswith('Coding')) # True
+
+# 29 Does ''Coding For All' end with a substring Coding?
+sentence = 'Coding For All'
+print(sentence.endswith('Coding')) # False
+
+# 30 '    Coding For All      ', remove the left and right trailing spaces in the given string.
+sentence = '    Coding For All      '
+print(sentence.strip()) # Coding For All
