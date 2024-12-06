@@ -172,7 +172,7 @@ length = str(length)
 print(length, 'as string')
 print(type(length))
 
-'''
+
 
 17# Even numbers are divisible by 2 and the remainder is zero. How do you check if a number is even or not using python?
 print('Even number checker')
@@ -181,3 +181,7 @@ if num % 2:
     print('The number is not even')
 else: 
     print('Even number')
+
+'''
+
+#18 
