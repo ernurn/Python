@@ -411,3 +411,37 @@ print(sentence.endswith('Coding')) # False
 # 30 '    Coding For All      ', remove the left and right trailing spaces in the given string.
 sentence = '    Coding For All      '
 print(sentence.strip()) # Coding For All
+
+# 31 Which one of the following variables return True when we use the method isidentifier()
+print('30DaysOfPython'.isidentifier()) # False
+print('thirty_days_of_python'.isidentifier()) # True
+
+# 32 The following list contains the names of some of python libraries: ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']. Join the list with a hash with space string.
+libraries = ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+print('# '.join(libraries))# Django# Flask# Bottle# Pyramid# Falcon
+
+# 33 Use the new line escape sequence to separate the following sentences. 
+print('I am enjoying this challenge.\nI just wonder what is next.') 
+#I am enjoying this challenge.
+#I just wonder what is next.
+
+#34 Use a tab escape sequence to write the following lines. 
+print('Name\t\tAge\t\tCountry\t\tCity') # Name            Age             Country         City
+print('Asabeneh\t250\t\tFinland\t\tHelsinki') # Asabeneh        250             Finland         Helsinki
+
+# 35 Use the string formatting method to display the following:
+radius = 10
+area = 3.14 * radius ** 2
+print(f'The area of a circle with radius {radius} is {area} square') # The area of a circle with radius 10 is 314.0 square
+
+# 36 Make the following using string formatting methods:
+a = 8
+b = 6
+
+print(f'{a} + {b} = {a + b}') # 8 + 6 = 14
+print(f'{a} -{b} = {a - b}') # 8 - 6 = 2
+print(f'{a} * {b} = {a * b}') # 8 * 6 = 48
+print(f'{a} / {b} = {a / b}') # 8 / 6 = 1.33
+print(f'{a} % {b} = {a % b}') # 8 % 6 = 2
+print(f'{a} // {b} = {a // b}') # 8 // 6 = 1
+print(f'{a} ** {b} = {a ** b}') # 8 ** 6 = 262144
